@@ -6,4 +6,6 @@ run: main.o
 	./${BUILD_DIR}/${BINARY_NAME}
 
 main.o:
-	gcc ${SRC_DIR}/main.c -o ${BUILD_DIR}/${BINARY_NAME}
+	gcc -o ${BUILD_DIR}/${BINARY_NAME} \
+		${SRC_DIR}/util.c \
+		${SRC_DIR}/main.c

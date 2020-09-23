@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include "util.h"
 
 int
 main() {
-    char hello[] = "Hi";
+    char* hello = hello_provider();
     char world[] = "world";
 
     printf("%s, %s!\n", hello, world);
