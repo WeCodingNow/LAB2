@@ -2,8 +2,10 @@
 
 int
 main() {
+    char hello[] = "Hi";
     char world[] = "world";
-    printf("Hello, %s!\n", world);
+
+    printf("%s, %s!\n", hello, world);
 
     return 0;
 }
