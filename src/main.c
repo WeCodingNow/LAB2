@@ -7,6 +7,8 @@ main() {
 
     printf("%s, %s!\n", hello, world);
 
+    printf("Goodbye, %s\n", world);
+
     return 0;
 }
 
