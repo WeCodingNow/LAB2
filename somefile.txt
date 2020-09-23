@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 some other text
+=======
+
+this is some text yo
+>>>>>>> another_branch
 
